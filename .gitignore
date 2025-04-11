@@ -1,0 +1,21 @@
+# Vagrant関連
+.vagrant/
+*.log
+*.box
+
+# 秘密鍵など（これは絶対に除外！）
+**/private_key
+
+# Terraform関連
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# IDE系
+.vscode/
+*.swp
+
+# OSごとの余分ファイル
+.DS_Store
+Thumbs.db
